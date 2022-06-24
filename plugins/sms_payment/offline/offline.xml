@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.0" type="plugin" group="sms_payment" method="upgrade">
+
+	<name>Offline Payment - SMS Payment Plugin</name>
+	<author>zwebtheme</author>
+	<creationDate>January 2019</creationDate>
+	<copyright>zwebtheme. All Rights Reserved.</copyright>
+	<authorEmail>support@zwebtheme.com</authorEmail>
+	<authorUrl>http://www.zwebtheme.com</authorUrl>
+	<license>GNU/GPLv3</license>
+	<version>1.0</version>
+	<description>Offline Payment - SMS Payment Plugin by zwebtheme.com. </description>
+
+	<files>
+		<filename plugin="offline">offline.php</filename>
+		<folder>offline</folder>
+	</files>
+
+	<languages folder="language">
+		<language tag="en-GB">en-GB/en-GB.plg_sms_payment_offline.ini</language>
+	</languages>
+
+	<config name="params">
+		<fields name="params">
+			<fieldset name="basic">
+				<field name="plugin_name" type="text" default="Offline Payment" label="PLG_SMS_PAY_OFFLINE_PLUGIN_NAME" description="" />
+				<field name="message" type="textarea" default="" label="Message" description="" />
+			</fieldset>
+		</fields>
+	</config>
+
+</extension>

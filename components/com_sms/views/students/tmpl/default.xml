@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="Student Dashboard">
+	    <message><![CDATA[Student Dashboard]]></message>
+	</layout>
+	
+	<state>
+		<name>Student Dashboard</name>
+		<description><![CDATA[Student Dashboard]]></description>
+	</state>
+</metadata>
+
+

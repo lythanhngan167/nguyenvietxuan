@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	<fields name="filter">
+		<field
+			name="search"
+			type="text"
+			label="COM_CONTENT_FILTER_SEARCH_DESC"
+			hint="JSEARCH_FILTER"
+		/>
+		
+		<field
+			name="gender"
+			type="list"
+			label="COM_SMS_SELECT_GENDER"
+			extension="com_sms"
+			description="JOPTION_FILTER_CATEGORY_DESC"
+			onchange="this.form.submit();"
+			>
+			<option value="">COM_SMS_SELECT_GENDER</option>
+			<option value="Male"> Male </option>
+			<option value="Female"> Female </option>
+		</field>
+		
+		<field
+			name="class_id"
+			type="class"
+			label="COM_SMS_SELECT_CLASS"
+			extension="com_sms"
+			description="JOPTION_FILTER_CATEGORY_DESC"
+			onchange="this.form.submit();"
+			>
+			<option value="">COM_SMS_SELECT_CLASS</option>
+		</field>
+		
+		<field
+			name="section_id"
+			type="section"
+			label="COM_SMS_SELECT_SECTION"
+			extension="com_sms"
+			description="JOPTION_FILTER_CATEGORY_DESC"
+			onchange="this.form.submit();"
+			>
+			<option value="">COM_SMS_SELECT_SECTION</option>
+		</field>
+		
+		<field
+			name="division_id"
+			type="division"
+			label="COM_SMS_SELECT_DIVISION"
+			extension="com_sms"
+			description="JOPTION_FILTER_CATEGORY_DESC"
+			onchange="this.form.submit();"
+			>
+			<option value="">COM_SMS_SELECT_DIVISION</option>
+		</field>
+		
+		
+	</fields>
+	<fields name="list">
+		<field
+			name="fullordering"
+			type="list"
+			label="COM_CONTENT_LIST_FULL_ORDERING"
+			description="COM_CONTENT_LIST_FULL_ORDERING_DESC"
+			onchange="this.form.submit();"
+			default="a.id DESC"
+			>
+			<option value="">JGLOBAL_SORT_BY</option>
+			
+			<option value="name ASC">JGLOBAL_TITLE_ASC</option>
+			<option value="name DESC">JGLOBAL_TITLE_DESC</option>
+			<option value="class ASC">Class ascending</option>
+			<option value="class DESC">Class descending</option>
+			<option value="admission_date ASC">Create ascending</option>
+			<option value="admission_date DESC">Create descending</option>
+			<option value="id ASC">JGRID_HEADING_ID_ASC</option>
+			<option value="id DESC">JGRID_HEADING_ID_DESC</option>
+			
+		</field>
+		<field
+			name="limit"
+			type="limitbox"
+			class="input-mini"
+			default="25"
+			label="COM_CONTENT_LIST_LIMIT"
+			description="COM_CONTENT_LIST_LIMIT_DESC"
+			onchange="this.form.submit();"
+		/>
+	</fields>
+</form>

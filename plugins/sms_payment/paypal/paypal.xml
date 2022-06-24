@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.0" type="plugin" group="sms_payment" method="upgrade">
+
+	<name>Paypal - SMS Payment Plugin</name>
+	<author>zwebtheme</author>
+	<creationDate>january 2019</creationDate>
+	<copyright>Copyright © zwebtheme.com All rights reserved.</copyright>
+	<license>GNU/GPLv3</license>
+	<authorEmail>support@zwebtheme.com</authorEmail>
+	<authorUrl>www.zwebtheme.com</authorUrl>
+	<version>1.0</version>
+	<description>Paypal payment plugin for sms Joomla Extension</description>
+
+	<files>
+		<filename plugin="paypal">paypal.php</filename>
+		<folder>paypal</folder>
+	</files>
+
+	<languages folder="language">
+		<language tag="en-GB">en-GB/en-GB.plg_sms_payment_paypal.ini</language>
+	</languages>
+
+ 	<config>
+
+		<fields name="params">
+
+			<fieldset name="basic">
+
+				<field name="business" type="text" default="" label="PAYPAL_EMAIL" description="PAYPAL_EMAIL_DESC"/>
+
+				<field name="sandbox" type="radio" class="btn-group" default="0" label="PAYPAL_SANDBOX" description="PAYPAL_SANDBOX_DESC">
+					<option value="0">NO</option>
+					<option value="1">YES</option>
+				</field>
+
+				<field name="secure_post" type="radio" class="btn-group" default="1"  label="secure post(use	https)?" description="Use https for secure post">
+					<option value="0">NO</option>
+					<option value="1">YES</option>
+				</field>
+
+				<field name="plugin_name" type="text" default="Paypal" label="PLG_NAME" description="" />
+
+				<field name="plugin_hidname" type="hidden" default="paypal" />
+
+				<field name="log_write" type="radio" default="0" label="PLG_PAYPAL_WRITE_LOG"
+					description="PLG_PAYPAL_WRITE_LOG_DESC"
+					class="btn-group"
+				>
+					<option value="1">JYES</option>
+					<option value="0">JNO</option>
+				</field>
+
+				<field name="bypass_validation" type="radio" default="0" label="PLG_PAYPAL_BYPASS_VALIDATION_TITLE"
+					description="PLG_PAYPAL_BYPASS_VALIDATION_DESC"
+					class="btn-group"
+				>
+					<option value="1">JYES</option>
+					<option value="0">JNO</option>
+				</field>
+
+			</fieldset>
+
+			<fieldset name="style" label="PLG_SMS_PAY_PAYPAL_STYLE_LABEL">
+
+				<field type="text" name="title" label="PLG_SMS_PAY_PAYPAL_TITLE_LABEL" default="Paypal" />
+
+				<field type="textarea" name="description" label="PLG_SMS_PAY_PAYPAL_DESCRIPTION_LABEL" default="" />
+
+				<field type="media" name="preview_image" label="PLG_SMS_PAY_PAYPAL_PREVIEW_IMAGE_LABEL" default="plugins/sms_payment/paypal/paypal/paypal.png" />
+
+				<field type="media" name="buy_image" label="PLG_SMS_PAY_PAYPAL_BUY_IMAGE_LABEL" default="" />
+				
+			</fieldset>
+
+		</fields>
+
+	</config>
+
+</extension>

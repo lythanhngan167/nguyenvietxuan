@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="Parent Login Form">
+	    <message><![CDATA[Parent Login Form]]></message>
+	</layout>
+	
+	<state>
+		<name>Parent Login Form</name>
+		<description><![CDATA[Parent Login Form]]></description>
+	</state>
+</metadata>
+
+

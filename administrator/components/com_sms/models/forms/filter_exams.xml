@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	<fields name="filter">
+		<field
+			name="search"
+			type="text"
+			label=""
+			hint="Enter Exam Name, Date or Id"
+		/>
+		
+		
+		
+	</fields>
+	<fields name="list">
+	
+	  <field
+			name="status"
+			type="list"
+			label=" --Select Status -- "
+			extension="com_sms"
+			description="JOPTION_FILTER_CATEGORY_DESC"
+			onchange="this.form.submit();"
+			>
+			<option value=""> --Select Status -- </option>
+			<option value="1"> Published </option>
+			<option value="0"> Unpublished </option>
+		</field>
+	
+		<field
+			name="fullordering"
+			type="list"
+			label="COM_CONTENT_LIST_FULL_ORDERING"
+			description="COM_CONTENT_LIST_FULL_ORDERING_DESC"
+			onchange="this.form.submit();"
+			default="a.id DESC"
+			>
+			<option value="">JGLOBAL_SORT_BY</option>
+			
+			
+			<option value="class ASC">Class ascending</option>
+			<option value="class DESC">Class descending</option>
+			<option value="admission_date ASC">Create ascending</option>
+			<option value="admission_date DESC">Create descending</option>
+			<option value="id ASC">JGRID_HEADING_ID_ASC</option>
+			<option value="id DESC">JGRID_HEADING_ID_DESC</option>
+			
+		</field>
+		
+		
+		
+		<field
+			name="limit"
+			type="limitbox"
+			class="input-mini"
+			default="25"
+			label="COM_CONTENT_LIST_LIMIT"
+			description="COM_CONTENT_LIST_LIMIT_DESC"
+			onchange="this.form.submit();"
+		/>
+	</fields>
+</form>

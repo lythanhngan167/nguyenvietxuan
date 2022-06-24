@@ -4,7 +4,7 @@ class JConfig {
 	public $offline_message = 'Trang web này đang được bảo trì.</br>Xin quay trở lại sau.';
 	public $display_offline_message = '1';
 	public $offline_image = '';
-	public $sitename = 'B-Alpha';
+	public $sitename = 'Trung Tâm Nguyễn Viết Xuân';
 	public $editor = 'tinymce';
 	public $captcha = '0';
 	public $list_limit = '20';
@@ -16,7 +16,7 @@ class JConfig {
 	public $host = 'localhost';
 	public $user = 'root';
 	public $password = 'root';
-	public $db = 'balpha2';
+	public $db = 'nguyenvietxuan';
 	public $dbprefix = 'wmspj_';
 	public $live_site = '';
 	public $secret = 'jlOf06ZKyOA04aDy';
@@ -57,8 +57,8 @@ class JConfig {
 	public $unicodeslugs = '0';
 	public $feed_limit = '10';
 	public $feed_email = 'none';
-	public $log_path = '/Applications/MAMP/htdocs/bcavietnam2/administrator/logs';
-	public $tmp_path = '/Applications/MAMP/htdocs/bcavietnam2/tmp';
+	public $log_path = '/Applications/MAMP/htdocs/nguyenvietxuan/administrator/logs';
+	public $tmp_path = '/Applications/MAMP/htdocs/nguyenvietxuan/tmp';
 	public $lifetime = '5000';
 	public $session_handler = 'database';
 	public $shared_session = '0';

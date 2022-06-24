@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<extension type="package" version="3.0" method="upgrade">
+
+    <name>pkg_sms</name>
+    <packagename>sms</packagename>
+    <creationDate>February 2019</creationDate>
+    <packager>zwebtheme</packager>
+    <copyright>(C) zwebtheme. All rights reserved.</copyright>
+    <packageremail>support@zwebtheme.com</packageremail>
+    <packagerurl>www.zwebtheme.com</packagerurl>
+    <author>zwebtheme</author>
+    <authorEmail>support@zwebtheme.com</authorEmail>
+    <authorUrl>www.zwebtheme.com</authorUrl>
+    <version>1.6</version>
+    <license>http://www.gnu.org/licenses/gpl-3.0.html</license>
+    <description>PKG_SMS_XML_DESCRIPTION</description>
+    <scriptfile>pkg.script.php</scriptfile>
+
+    <files>
+        <!-- The id for each extension is the element stored in the DB -->
+        <file type="component" id="com_sms">com_sms.zip</file>
+        <file type="module" id="mod_sms_admin_menu" client="administrator">mod_sms_admin_menu.zip</file>
+        <file type="module" id="mod_sms_icons" client="administrator">mod_sms_icons.zip</file>
+       
+        <file type="plugin" id="paypal" group="sms_payment">plg_sms_pay_paypal.zip</file>
+        <file type="plugin" id="offline" group="sms_payment">plg_sms_offline.zip</file>
+       
+    </files>
+
+    <languages folder="language">
+        <language tag="en-GB">en-GB/en-GB.pkg_sms.sys.ini</language>
+    </languages>
+
+    <updateservers>
+         <!-- Note: No spaces or linebreaks allowed between the server tags -->
+        <server type="extension" priority="1" name="SMS Update Site"><![CDATA[http://sms.zwebtheme.com/sms_update/sms_update.xml]]></server>
+    </updateservers>
+
+</extension>

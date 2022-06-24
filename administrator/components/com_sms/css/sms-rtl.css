@@ -1,0 +1,4 @@
+
+ /** RTL CSS **/
+ #admin-table tr td {text-align: right !important;}
+ #admin-table tr td.right {text-align: left !important;}

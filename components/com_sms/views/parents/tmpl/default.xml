@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="Parent Dashboard">
+	<message><![CDATA[Parent Dashboard]]></message>
+	</layout>
+	
+	<state>
+		<name>Parent Dashboard</name>
+		<description><![CDATA[Parent Dashboard]]></description>
+	</state>
+	
+</metadata>
+
+

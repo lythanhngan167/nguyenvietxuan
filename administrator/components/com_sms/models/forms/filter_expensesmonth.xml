@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	
+	<fields name="list">
+	
+	  <field
+			name="year_id"
+			type="year"
+			label="Select Month"
+			extension="com_sms"
+			description="JOPTION_FILTER_CATEGORY_DESC"
+			onchange="this.form.submit();"
+			>
+			<option value=""> --Select Year -- </option>
+		</field>
+		
+	
+	</fields>
+</form>

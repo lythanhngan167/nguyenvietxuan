@@ -1,0 +1,375 @@
+
+table.profile caption{font-weight: bold; text-align: center !important;background: #f5f5f5;}
+table.profile tr td {width: 50%;}
+table.profile tr td.first{text-align: left !important;}
+table.profile tr td.secound{text-align: right !important;}
+
+ .fee-td {text-align: left !important;}
+.payment-to{text-align: right !important;}
+ .bill-to {text-align: left !important;}
+#result-table td {text-align: right;}
+
+.top-menu, .logout-button, #scrollToTop, .t3-mainnav, .dropdown-menu, #sidebar li.active a {
+    background: #3ab9ac none repeat scroll 0 0;
+    color: #ffffff;
+}
+
+.btn:hover,
+.btn:focus,
+.btn:active,
+.btn.active,
+.btn.disabled,
+.btn[disabled],
+.button:hover,
+.button:focus,
+.button:active,
+.button.active,
+.button.disabled,
+.button[disabled],
+button:hover,
+button:focus,
+button:active,
+button.active,
+button.disabled,
+button[disabled] {
+  color: #fff;
+  background-color: #fbb41c;
+  *background-color: #fbb41c;
+}
+.btn:active,
+.btn.active,
+.button:active,
+.button.active,
+button:active,
+button.active {
+  background-color: #d5d5d5 \9;
+}
+.btn:hover,
+.btn a.btn:hover,
+.button:hover,
+.button a.btn:hover,
+button:hover,
+button a.btn:hover {
+  text-decoration: none;
+  background-color: #ef6578;
+}
+.btn:focus,
+.btn a.btn:focus,
+.button:focus,
+.button a.btn:focus,
+button:focus,
+button a.btn:focus {
+  outline: 0;
+}
+.btn.active,
+.btn:active,
+.btn a.btn:active,
+.button.active,
+.button:active,
+.button a.btn:active,
+button.active,
+button:active,
+button a.btn:active {
+  text-decoration: none;
+  outline: 0;
+  -webkit-box-shadow: inset 0 2px 4px rgba(0,0,0,.15), 0 1px 2px rgba(0,0,0,.05);
+  -moz-box-shadow: inset 0 2px 4px rgba(0,0,0,.15), 0 1px 2px rgba(0,0,0,.05);
+  box-shadow: inset 0 2px 4px rgba(0,0,0,.15), 0 1px 2px rgba(0,0,0,.05);
+}
+.btn-large {
+  padding: 9px 14px;
+  font-size: 16px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,.2), 0 1px 2px rgba(0,0,0,.5);
+  -moz-box-shadow: inset 0 1px 0 rgba(255,255,255,.2), 0 1px 2px rgba(0,0,0,.5);
+  box-shadow: inset 0 1px 0 rgba(255,255,255,.2), 0 1px 2px rgba(0,0,0,.5);
+}
+.btn-small {
+  padding: 3px 9px;
+  font-size: 13px;
+}
+.btn-mini {
+  padding: 2px 6px;
+  font-size: 12px;
+}
+.btn-micro {
+  padding: 1px 4px;
+  font-size: 10px;
+  line-height: 8px;
+}
+.btn {
+  border-color: #c5c5c5;
+  border-color: rgba(0,0,0,0.15) rgba(0,0,0,0.15) rgba(0,0,0,0.25);
+	-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+border-radius: 3px;
+}
+.btn-primary {
+  color: #fff;
+ background: #53cfc2 ;
+   transition: all 200ms ease-in 0s;
+}
+
+
+ span#time_show {
+    display: block;
+    -ms-transform: rotate(20deg); /* IE 9 */
+    -webkit-transform: rotate(20deg); /* Safari */
+    transform: rotate(20deg); /* Standard syntax */
+}
+
+ .attendance-report th,.attendance-report td{font-size: 10px !important; font-weight: normal !important;}
+  .attendance-report th {padding:  1px !important;}
+	.attendance-report td {padding: 8px 1px !important;}
+	
+.information-div {text-align: center;}
+#result-table {text-align: right;}
+
+.bs-glyphicons li a span.icon-white,
+.bs-glyphicons li a .fa {display: block;
+    font-size: 25px;
+    line-height: 40px;
+    margin: 0;
+    min-height: 40px;
+    width: auto;}
+.bs-glyphicons li a span.text_area {font-size: 13px;}
+.bs-glyphicons li a:hover{background: #eee;text-decoration: none;}
+.bs-glyphicons .glyphicon {
+    font-size: 24px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+.bs-glyphicons .glyphicon-class {
+    display: block;
+    text-align: center;
+    word-wrap: break-word;
+}
+
+ .sms-container {display: inline-block;width: 100%;text-align: center;}
+ .sms-icon-menu {margin: 0;display: inline-block;width: 100%;}
+ .sms-icon-menu li {margin: 0;display: inline-block;}
+ .sms-icon-menu li a {width: 133px;}
+ /*-----------------------------------------------------------------------------------------------
+ *--------------------------------------- LOGIN STYLE --------------------------------------------
+ *-----------------------------------------------------------------------------------------------*/
+ #sms-login {text-align: center;}
+ #sms-login .login_h1_title {font-size: 250%; margin-bottom: 20px;text-align: center;}
+ #sms-login .login-fieldset {display: inline-block;width: 50%;}
+ #sms-login .login-fieldset .controls{text-align: right;}
+ #remember {height: auto !important;}
+ 
+ 
+ 
+  /*-----------------------------------------------------------------------------------------------
+ *--------------------------------------- TEACHER STYLE --------------------------------------------
+ *-----------------------------------------------------------------------------------------------*/
+ .info_box {
+ 
+ -moz-border-radius-topleft: 5px;
+-webkit-border-top-left-radius: 5px;
+ border-top-left-radius: 5px;
+-moz-border-radius-topright: 5px;
+-webkit-border-top-right-radius: 5px;
+border-top-right-radius: 5px;
+ }
+ 
+ .details_warp {
+ 
+ }
+  .details_inner {
+ padding: 10px;
+ border: 1px solid #eee;
+ margin-bottom: 15px;
+ }
+ .more-details {border: 1px solid #eee;}
+ 
+ .tab-pane {padding: 10px !important;}
+ 
+ 
+ .message_box {
+ display: Block;
+ float: left;
+ width: 100%;
+ margin-top: 10px;
+ border: 1px solid #eee;
+ -webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+ }
+ 
+ .message_box h1 {padding: 10px;
+ line-height: 20px;
+ background: #f5f5f5;
+ font-size: 16px;
+ text-align: right;
+ -moz-border-radius-topleft: 5px;
+-webkit-border-top-left-radius: 5px;
+ border-top-left-radius: 5px;
+-moz-border-radius-topright: 5px;
+-webkit-border-top-right-radius: 5px;
+border-top-right-radius: 5px;
+ }
+
+ #com_sms h1.title {margin-bottom: 10px;}
+ 
+ #roll_filder {width: 150px;}
+ 
+ #adminForm input, #adminForm textarea {
+    width: 90%;
+}
+
+ .welcome-meg {text-align: center;margin-bottom: 20px;margin-top: 10px;}
+
+ 
+ /*-----------------------------------------------------------------------------------------------
+ *--------------------------------------- AVATOR STYLE --------------------------------------------
+ *-----------------------------------------------------------------------------------------------*/
+ #sms_leftbar {background: #f5f5f5;padding: 0px;text-align: center;}
+ 
+ #sms_leftbar p{text-align: right;margin: 0;}
+ #sms_leftbar p label {text-align: left; width: 93px;}
+ #sms_leftbar p b {padding-left: 5px;}
+ 
+ .avator {text-align: center;margin: 10px 0;}
+ .avator img {
+ width: 150px;
+ height: 150px;
+ border: 5px solid #fff;
+ -webkit-border-radius: 90px;
+-moz-border-radius: 90px;
+border-radius: 90px;
+ }
+ 
+ .mark-input {
+    width: auto;
+}
+ 
+ .v-card_warp .span2{line-height: 117px;}
+ 
+ .avator-student {
+ width: 100px;
+ height: 100px;
+ border: 5px solid #fff;
+ -webkit-border-radius: 90px;
+-moz-border-radius: 90px;
+border-radius: 90px;
+ }
+ 
+ .dash-title {padding: 0 10px;font-size: 18px;}
+ 
+ #submenu {list-style-type: none;margin: 0;padding: 0;}
+ #submenu li{margin: 0px 0;}
+ #submenu li a{display: block;width: 100%;height: auto;margin: 0;padding: 5px 0;font-size: 14px;text-align: right;text-indent: 10px;border-top: 1px dashed  #3ab9ac;}
+ ul.dashboard-menu li a:hover{}
+ ul.dashboard-menu li a.active{}
+ 
+ 
+ .welcom_div {}
+
+ /*-----------------------------------------------------------------------------------------------
+ *--------------------------------------- ADMIN TABLE STYLE --------------------------------------------
+ *-----------------------------------------------------------------------------------------------*/
+
+#admin-table {width: 100%;border: 1px solid #ebebeb;}
+#admin-table form {margin: 0;}
+#admin-table input {margin: 0;}
+#admin-table th {background: #f5f5f6;text-align: center;border: 1px solid #ebebeb;color: #666;  padding: 8px;}
+#admin-table td {border: 1px solid #ebebeb;padding: 8px;vertical-align: top;text-align: center;}
+#admin-table  select {width: 90%;}
+#admin-table  input.date-formp {width: 100%;}
+#date_img {padding: 5px 7px;}
+
+#admin-table tfoot td {border: 0px solid #ebebeb;}
+
+
+/*-----------------------------------------------------------------------------------------------
+ *--------------------------------------- USER FORM STYLE --------------------------------------------
+ *-----------------------------------------------------------------------------------------------*/
+ #sms-form {}
+ 
+ #education p {float: left;width: 100%;}
+ #education label {display: inline;float: left;width: 30%;line-height: 30px;}
+ #education .radio-box label {display: inline;float: left;width:10%;line-height: 30px;}
+ #education .radio-box label input {margin-top: 0px;}
+ #education .labelp {text-align: right;padding-right: 10px;}
+ #education .cinp {display: inline;float: left;width: 50%;}
+
+
+.details_payment p label{display: inline;
+    float: left;
+    font-weight: bold;
+    margin-bottom: 5px;
+    padding-right: 10px;
+    text-align: right;
+    width: 40%;}
+		.details_payment p {padding: 3px;}
+
+
+ .btn-small{padding: 3px 10px;}
+ .btn-null {padding: 3px 10px;}
+ 
+ .info_box {background: #f5f5f5;}
+ .info_box p {padding: 4px;margin-bottom: 0;}
+ .info_box h1 {padding: 10px;margin-bottom: 0;line-height: 20px;}
+ 
+ .details_list  label {
+    display: inline;
+    float: left;
+    margin-bottom: 5px;
+    padding-right: 10px;
+    text-align: right;
+    width: 23%;
+
+ }
+ .details_page {margin-top: 10px;}
+ .details_img {margin-top:0px;}
+ 
+ .details_list {list-style-type: none;margin-left: 0px;}
+ .details_list li { display: block;
+    float: left;
+    width: 100%;
+		border-top: 1px solid #f5f5f5;
+}
+.details_list li:first-child {border-top: 0px solid #f5f5f5;}
+ 
+ .nav-tabs {background: #f5f5f5;border-bottom: 0px solid #ddd;}
+ 
+ 
+ 
+ /*---------------------------------------------------------------------------------------------
+ *---------------------- QUICK ICON STYLE ------------------------------------------------------------
+ *---------------------------------------------------------------------------------------------*/
+ 
+ 	.bs-glyphicons{display: block;width: 100%;float: left;}
+	.bs-glyphicons-list{list-style: none !important;margin-top: 10px;}
+	.bs-glyphicons li {}
+.bs-glyphicons li a{
+    color: #999;
+    font-size: 12px;
+		background: #f5f5f5;
+    border: 1px solid #eee;
+    float: left;
+    font-size: 18px;
+		
+    min-height: 70px;
+    line-height: 1.4;
+    padding: 10px;
+    text-align: center;
+   margin-bottom: 10px;
+}
+.bs-glyphicons li a:hover{background: #eee;text-decoration: none;}
+.bs-glyphicons .glyphicon {
+    font-size: 24px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+.bs-glyphicons .glyphicon-class {
+    display: block;
+    text-align: center;
+    word-wrap: break-word;
+}
+ 
+ 
+ 

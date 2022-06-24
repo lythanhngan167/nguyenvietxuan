@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+	<fieldset name="setting" label="COM_SMS_SCHOOLS_SETTING_TAB_LABEL">
+	    <field 
+	    	name="schools_welcome" 
+	    	type="textarea" 
+	    	label="COM_SMS_WELCOME_LABEL" 
+	    	default="Thank you for using our school management applications  !">
+	    </field>
+	
+		<field 
+			name="schools_name" 
+			type="text" 
+			label="COM_SMS_SCHOOLS_NAME_LABEL" 
+			default="Schools/Collage Name" >			
+		</field>
+		
+		<field 
+			name="schools_address" 
+			type="textarea" 
+			label="COM_SMS_SCHOOLS_ADDRESS_LABEL" 
+			default="Brindabon South Para Bogra - 5800, Bangladesh">
+		</field>
+		
+		<field 
+			name="schools_email" 
+			type="text" 
+			label="COM_SMS_SCHOOLS_EMAIL_LABEL" 
+			default="info@zwebtheme.com" >
+		</field>
+		
+		<field name="schools_phone" type="text" label="COM_SMS_SCHOOLS_PHONE_LABEL" default="999 9999" ></field>
+		
+		<field name="schools_fax" type="text" label="COM_SMS_SCHOOLS_FAX_LABEL" default="999 9999"> </field>
+		
+		<field name="schools_web" type="text" label="COM_SMS_SCHOOLS_WEBSITE_LABEL" default="www.zwebtheme.com"> </field>
+		
+		
+	</fieldset>
+	
+	<fieldset name="sms_header" label="Header" >
+		<field name="header_height" type="text" label="Header Height" default="25%"  ></field>
+	    <field name="sms_logo" type="media" default=""		 label="Schools/Collage Logo" description="Schools/Collage Logo"/>
+		
+		<field name="logo_position" type="list" default="left" label="Logo Position" description="Logo Position">
+			<option value="left">Left</option>
+			<option value="center">Center</option>
+			<option value="right">Right</option>
+        </field>
+		
+		<field name="show_school_name" type="radio" default="1" class="btn-group btn-group-yesno" label="Show School Name" description="Show Schools/Collage Name">
+			<option value="1">JYES</option>
+			<option value="0">JNO</option>
+		</field>
+		
+		<field name="show_school_address" type="radio" default="0" class="btn-group btn-group-yesno" label="Show School Address" description="Show Schools/Collage Address">
+			<option value="1">JYES</option>
+			<option value="0">JNO</option>
+		</field>
+		
+		<field name="show_school_email" type="radio" default="0" class="btn-group btn-group-yesno" label="Show School Email" description="Show Schools/Collage Email">
+			<option value="1">JYES</option>
+			<option value="0">JNO</option>
+		</field>
+		
+		<field name="show_school_phone" type="radio" default="0" class="btn-group btn-group-yesno" label="Show School Phone" description="Show Schools/Collage Phone">
+					<option value="1">JYES</option>
+					<option value="0">JNO</option>
+		</field>
+		
+		<field name="show_school_fax" type="radio" default="0" class="btn-group btn-group-yesno" label="Show School Fax" description="Show Schools/Collage Fax">
+					<option value="1">JYES</option>
+					<option value="0">JNO</option>
+		</field>
+		
+		<field name="show_school_website" type="radio" default="0" class="btn-group btn-group-yesno" label="Show School Website" description="Show Schools/Collage Website">
+					<option value="1">JYES</option>
+					<option value="0">JNO</option>
+		</field>
+		
+		<field name="show_custom_header_text" type="textarea" label="Custom Text" default=""></field>
+		
+		<field name="header_bg_color" type="color" label="Header Background" default="#3ab9ac"> </field>
+		<field name="header_text_color" type="color" label="Header Text" default="#ffffff"> </field>
+		
+		<field name="show_bg_image" type="radio" default="0" class="btn-group btn-group-yesno" label="Show Background Image" description="Show Background Image">
+					<option value="1">JYES</option>
+					<option value="0">JNO</option>
+		</field>
+		<field name="header_bg_image" type="media" default=""		 label="Header Background Image" description="Header Background Image"/>
+		
+	</fieldset>
+	
+	<fieldset name="sms_footer" label="Footer" >
+	    <field name="footer_height" type="text" label="Header Height" default="10%"  ></field>
+		<field name="show_logo_in_footer" type="radio" default="1" class="btn-group btn-group-yesno" label="Show Footer Logo" description="Show Footer Logo">
+					<option value="1">JYES</option>
+					<option value="0">JNO</option>
+		</field>
+		<field name="sms_footer_logo" type="media" default=""		 label="Footer Logo" description="Schools/Collage footer Logo"/>
+		
+		<field name="footer_logo_position" type="list" default="left" label="Footer Logo Position" description="Footer Logo Position">
+          <option value="left">Left</option>
+          <option value="center">Center</option>
+		  <option value="right">Right</option>
+        </field>
+		
+		
+		
+		<field name="show_school_name_in_footer" type="radio" default="1" class="btn-group btn-group-yesno" label="Show School Name" description="Show Schools/Collage Name">
+					<option value="1">JYES</option>
+					<option value="0">JNO</option>
+		</field>
+		
+		<field name="show_school_address_in_footer" type="radio" default="0" class="btn-group btn-group-yesno" label="Show School Address" description="Show Schools/Collage Address">
+					<option value="1">JYES</option>
+					<option value="0">JNO</option>
+		</field>
+		
+		<field name="show_school_email_in_footer" type="radio" default="0" class="btn-group btn-group-yesno" label="Show School Email" description="Show Schools/Collage Email">
+					<option value="1">JYES</option>
+					<option value="0">JNO</option>
+		</field>
+		
+		<field name="show_school_phone_in_footer" type="radio" default="0" class="btn-group btn-group-yesno" label="Show School Phone" description="Show Schools/Collage Phone">
+					<option value="1">JYES</option>
+					<option value="0">JNO</option>
+		</field>
+		
+		<field name="show_school_fax_in_footer" type="radio" default="0" class="btn-group btn-group-yesno" label="Show School Fax" description="Show Schools/Collage Fax">
+					<option value="1">JYES</option>
+					<option value="0">JNO</option>
+		</field>
+		
+		<field name="show_school_website_in_footer" type="radio" default="0" class="btn-group btn-group-yesno" label="Show School Website" description="Show Schools/Collage Website">
+					<option value="1">JYES</option>
+					<option value="0">JNO</option>
+		</field>
+		
+		<field name="show_custom_header_text_in_footer" type="textarea" label="Custom Text" default=""></field>
+		
+		<field name="bg_color_in_footer" type="color" label="Footer Background" default="#3ab9ac"> </field>
+		<field name="text_color_in_footer" type="color" label="Footer Text" default="#ffffff"> </field>
+		
+		<field name="show_bg_image_in_footer" type="radio" default="0" class="btn-group btn-group-yesno" label="Show Background Image" description="Show Background Image">
+					<option value="1">JYES</option>
+					<option value="0">JNO</option>
+		</field>
+		<field name="bg_image_in_footer" type="media" default=""		 label="Footer Background Image" description="Footer Background Image"/>
+	</fieldset>
+	
+	<fieldset name="id_card" label="ID Card Setting" >
+	    <field name="id_card_authority_name" type="text" label="Authority Name" ></field>
+		<field name="id_card_authority_signature" type="media" default=""		 label="Authority Signature" />
+		<field name="id_card_background_image" type="media" default=""		 label="Background Image" />
+		<field name="id_card_header_text" type="textarea" label="Header Custom Text" default=""></field>
+		<field name="id_card_show_school_name" type="radio" default="1" class="btn-group btn-group-yesno" label="Show School Name" description="Show Schools/Collage Name">
+					<option value="1">JYES</option>
+					<option value="0">JNO</option>
+		</field>
+		
+		<field name="id_card_show_school_address" type="radio" default="0" class="btn-group btn-group-yesno" label="Show School Address" description="Show Schools/Collage Address">
+					<option value="1">JYES</option>
+					<option value="0">JNO</option>
+		</field>
+		
+		<field name="id_card_show_school_email" type="radio" default="0" class="btn-group btn-group-yesno" label="Show School Email" description="Show Schools/Collage Email">
+					<option value="1">JYES</option>
+					<option value="0">JNO</option>
+		</field>
+		
+		<field name="id_card_show_school_phone" type="radio" default="0" class="btn-group btn-group-yesno" label="Show School Phone" description="Show Schools/Collage Phone">
+					<option value="1">JYES</option>
+					<option value="0">JNO</option>
+		</field>
+		
+		<field name="id_card_show_school_fax" type="radio" default="0" class="btn-group btn-group-yesno" label="Show School Fax" description="Show Schools/Collage Fax">
+					<option value="1">JYES</option>
+					<option value="0">JNO</option>
+		</field>
+		
+		<field name="id_card_show_school_website" type="radio" default="0" class="btn-group btn-group-yesno" label="Show School Website" description="Show Schools/Collage Website">
+					<option value="1">JYES</option>
+					<option value="0">JNO</option>
+		</field>
+	</fieldset>
+	
+	<fieldset name="account" label="COM_SMS_ACCOUNT_SETTING_TAB_LABEL" >
+	    <field name="students_account" type="radio" default="1" class="btn-group btn-group-yesno" label="COM_SMS_STUDENTS_ACCOUNT_LABEL" description="COM_SMS_STUDENTS_ACCOUNT">
+					<option value="1">JYES</option>
+					<option value="0">JNO</option>
+		</field>
+		
+		<field name="teachers_account" type="radio" default="1" class="btn-group btn-group-yesno" label="COM_SMS_TEACHERS_ACCOUNT_LABEL" description="COM_SMS_TEACHERS_ACCOUNT">
+					<option value="1">JYES</option>
+					<option value="0">JNO</option>
+		</field>
+		
+		<field name="parents_account" type="radio" default="1" class="btn-group btn-group-yesno" label="COM_SMS_PARENTS_ACCOUNT_LABEL" description="COM_SMS_PARENTS_ACCOUNT">
+					<option value="1">JYES</option>
+					<option value="0">JNO</option>
+		</field>
+		
+		<field name="year_range_start" type="text" label="COM_SMS_YEAR_RANGE_START" default="2015" ></field>
+		<field name="year_range_end" type="text" label="COM_SMS_YEAR_RANGE_END" default="2025" ></field>
+		
+	</fieldset>
+	
+	
+	<fieldset name="pdf" label="COM_SMS_PDF_SETTING_TAB_LABEL">
+	  <field name="pdf_orientation" type="radio" default="portrait" label="COM_SMS_SELECT_ORIENTATION_LABEL" description="">
+          <option value="portrait">Portrait</option>
+          <option value="landscape">Landscape</option>
+    </field>
+		
+		<field name="pdf_paper_size" type="list" default="A4" label="COM_SMS_SELECT_PAPER_SIZE_LABEL" description="">
+         <option value="A4">A4</option>
+         <option value="A5">A5</option>
+				 <option value="B5">B5</option>
+    </field>
+		
+		<field name="pdf_font" type="list" default="Courier" label="COM_SMS_SELECT_FONT_LABEL" description="">
+         <option value="Courier">Courier</option>
+         <option value="Helvetica">Helvetica</option>
+				 <option value="Times">Times</option>
+				 <option value="DejaVuSans">DejaVu Sans</option>
+				 <option value="Firefly">Firefly (Unicode)</option>
+				 <option value="unifont">Unifont (Unicode)</option>
+    </field>
+		<field name="notepdf" type="note" description="COM_SMS_PDF_SEETING_NOTE" />
+		
+		
+		
+	</fieldset>
+
+	<fieldset name="payment" label="Payment" >
+        <field
+			name="default_payment"
+			type="sql"
+			query="SELECT extension_id as id,name,element,enabled as published FROM #__extensions WHERE folder in ('sms_payment') AND enabled=1"
+			key_field="element"
+			value_field="name"
+			class="btn-group chosen"
+			label="Default payment method"
+			description="Set the default payment gateway.">
+				<!-- <option value="">Select payment gateway</option> -->
+		</field>
+
+		<field
+			name="currency"
+			type="text"
+			label="COM_SMS_CURRENCY_CODE_LABEL"
+			default="USD" />
+
+		<field name="currency_sign" type="text" label="COM_SMS_CURRENCY_SIGN_LABEL" default="$" ></field>
+		<field name="currency_decimal" type="text" label="COM_SMS_CURRENCY_DECIMAL_LABEL" default="2" ></field>
+		<field name="currency_position" type="list" default="before" label="COM_SMS_CURRENCY_POSITION_LABEL" >
+            <option value="after">After</option>
+            <option value="before">Before</option>
+        </field>
+		
+    </fieldset>
+	
+	
+	
+	<fieldset
+		name="permissions"
+		label="JCONFIG_PERMISSIONS_LABEL"
+		description="JCONFIG_PERMISSIONS_DESC"
+		>
+
+		<field
+			name="rules"
+			type="rules"
+			label="JCONFIG_PERMISSIONS_LABEL"
+			validate="rules"
+			filter="rules"
+			component="com_sms"
+			section="component" />
+			
+			
+	</fieldset>
+	
+	
+	
+</config>

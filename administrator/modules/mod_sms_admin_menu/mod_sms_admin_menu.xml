@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="3.7" client="administrator" method="upgrade">
+	<name>mod_sms_admin_menu</name>
+	<author>zwebtheme</author>
+	<creationDate>January 2019</creationDate>
+	<copyright>Copyright (C) zwebtheme. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<authorEmail>support@zwebtheme.com</authorEmail>
+	<authorUrl>www.zwebtheme.com</authorUrl>
+	<version>1.0</version>
+	<description>SMS Admin Menu</description>
+
+	<scriptfile>script.php</scriptfile>
+
+	<languages folder="language">
+      <language tag="en-GB">en-GB/en-GB.mod_sms_admin_menu.ini</language>
+      <language tag="en-GB">en-GB/en-GB.mod_sms_admin_menu.sys.ini</language>
+    </languages>
+
+	<files>
+		<filename module="mod_sms_admin_menu">mod_sms_admin_menu.php</filename>
+		<filename>script.php</filename>
+		<folder>tmpl</folder>
+	</files>
+	<config>
+		<fields name="params">
+			<fieldset name="advanced">
+				<field name="layout" type="modulelayout" label="JFIELD_ALT_LAYOUT_LABEL" description="JFIELD_ALT_MODULE_LAYOUT_DESC" />
+			</fieldset>
+		</fields>
+	</config>
+</extension>

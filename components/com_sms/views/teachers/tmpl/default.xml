@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="Teacher Dashboard">
+	    <message><![CDATA[Teacher Dashboard]]></message>
+	</layout>
+	
+	<state>
+		<name>Teacher Dashboard</name>
+		<description><![CDATA[Teacher Dashboard]]></description>
+	</state>
+</metadata>
+
+

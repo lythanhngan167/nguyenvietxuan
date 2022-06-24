@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="3.6" method="upgrade" client="administrator">
+	<name>com_sms</name>
+	<creationDate>September 2019</creationDate>
+	<author>zwebtheme</author>
+	<authorEmail>support@zwebtheme.com</authorEmail>
+	<authorUrl>http://www.zwebtheme.com</authorUrl>
+	<copyright>(C) 2016-2019 zwebtheme. All rights reserved.</copyright>
+	<license>https://codecanyon.net/item/school-management-system-for-joomla/18219198</license>
+	<version>1.7</version>
+	<description>COM_SMS_DESCRIPTION</description>
+	
+	
+	<install>
+		<sql>
+			<file driver="mysql" charset="utf8">sql/install/mysql/install.sql</file>
+			<file driver="mysql">sql/install/mysql/install.sql</file>
+			
+			<file driver="mysqli" charset="utf8">sql/install/mysql/install.sql</file>
+			<file driver="mysqli">sql/install/mysql/install.sql</file>
+		</sql>
+	</install>
+	
+	<uninstall>
+		<sql>
+			<file driver="mysql" charset="utf8">sql/install/mysql/uninstall.sql</file>
+			<file driver="mysql">sql/install/mysql/uninstall.sql</file>
+			
+			<file driver="mysqli" charset="utf8">sql/install/mysql/uninstall.sql</file>
+			<file driver="mysqli">sql/install/mysql/uninstall.sql</file>
+		</sql>
+	</uninstall>	
+	
+	<update>
+		<schemas>
+			<schemapath type="mysql">sql/updates/mysql</schemapath>
+			<schemapath type="mysqli">sql/updates/mysql</schemapath>
+		</schemas>
+	</update>
+
+	<files folder="site">
+		<folder>asset</folder>
+		<folder>controllers</folder>
+		<folder>helpers</folder>
+		<folder>models</folder>
+		<folder>photo</folder>
+		<folder>views</folder>
+		<filename>index.html</filename>
+		<filename>sms.php</filename>
+		<filename>controller.php</filename>
+		<filename>router.php</filename>
+	</files> 
+
+
+	<administration>
+		<menu link="option=com_sms" img="class:zsms" >COM_SMS</menu>
+		<submenu>
+			<menu view="academic" img="class:academic" alt="academic">COM_SMS_ACADEMIC_MENU</menu>
+			<menu view="students" img="class:students" alt="students">COM_SMS_STUDENTS_MENU</menu>
+			<menu view="teachers" img="class:teachers"  alt="teachers">COM_SMS_TEACHERS_MENU</menu>
+			<menu view="parents" img="class:parents" alt="parents">COM_SMS_PARENTS_MENU</menu>
+			<menu view="attendance" img="class:attendance"  alt="attendance">COM_SMS_ATTENDANCE_MENU</menu>
+			<menu view="exams"  img="class:exams" alt="exams">COM_SMS_EXAM_MENU</menu>
+			<menu view="marks"  img="class:marks" alt="marks">COM_SMS_MANAGE_MARKS_MENU</menu>
+			<menu view="payments" img="class:payments" alt="payments">COM_SMS_PAYMENTS_MENU</menu>
+			<menu view="message" img="class:message" alt="message">COM_SMS_MESSAGE_MENU</menu>
+			<menu view="accounting" img="class:accounting" alt="accounting">COM_SMS_ACCOUNTING_MENU</menu>
+		</submenu>
+
+		<files folder="admin">
+			<folder>controllers</folder>
+			<folder>css</folder>
+			<folder>font-awesome</folder>
+			<folder>photo</folder>
+			<folder>models</folder>
+			<folder>tables</folder>
+			<folder>views</folder>
+			<folder>helpers</folder>
+			<folder>js</folder>
+			<folder>sql</folder>
+			<folder>language</folder>
+			<folder>libraries</folder>
+			<filename>controller.php</filename>
+			<filename>sms.php</filename>
+			<filename>index.html</filename>
+			<filename>access.xml</filename>
+			<filename>config.xml</filename>
+		</files>  
+
+	</administration>
+
+	
+</extension>
