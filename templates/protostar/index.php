@@ -762,7 +762,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 						if(!($_REQUEST['option'] == 'com_joomprofile' && $_REQUEST['view'] == 'profile' && $_REQUEST['task'] == 'user.display')): // profile consultinger
 					?>
 					<?php
-						if ($group_id == 3 || $group_id == 4) { ?>
+						if ($group_id == 3 || $group_id == 4 || $group_id == 140001 || $group_id == 140002 || $group_id == 140003) { ?>
 							<div class="col-xs-12 left1-main-content col-md-3">
 							<div id="aside" class="<?php //echo span3; ?>">
 								<jdoc:include type="modules" name="position-8" style="well" />

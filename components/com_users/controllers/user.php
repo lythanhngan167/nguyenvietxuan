@@ -140,7 +140,7 @@ class UsersControllerUser extends UsersController
 
 		$user = JFactory::getUser();
 		$groups = JAccess::getGroupsByUser($user->id, false);
-		if($groups[0] != 4){
+		if($groups[0] != 4 && $groups[0] != 140003 && $groups[0] != 140001 && $groups[0] != 140002){
 			$session = JFactory::getSession();
 			$session->destroy();
 			$app->redirect(JRoute::_('index.php?option=com_users&view=login&deny=1', false));

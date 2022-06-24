@@ -22,3 +22,7 @@
 #toolbar-delete,#toolbar-trash,#toolbar-archive,#toolbar-checkin,#toolbar-copy{
   display: none;
 }
+
+#menu-item-372{
+  display: none;
+}
