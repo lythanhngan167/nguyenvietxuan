@@ -4,7 +4,7 @@ class JConfig {
 	public $offline_message = 'Trang web này đang được bảo trì.</br>Xin quay trở lại sau.';
 	public $display_offline_message = '1';
 	public $offline_image = '';
-	public $sitename = 'Trung Tâm Nguyễn Viết Xuân';
+	public $sitename = 'Nguyễn Viết Xuân';
 	public $editor = 'tinymce';
 	public $captcha = '0';
 	public $list_limit = '20';
@@ -16,7 +16,7 @@ class JConfig {
 	public $host = 'localhost';
 	public $user = 'root';
 	public $password = 'root';
-	public $db = 'nguyenvietxuan';
+	public $db = 'nguyenvietxuan2';
 	public $dbprefix = 'wmspj_';
 	public $live_site = '';
 	public $secret = 'jlOf06ZKyOA04aDy';
@@ -45,8 +45,8 @@ class JConfig {
 	public $cache_handler = 'file';
 	public $cachetime = '15';
 	public $cache_platformprefix = '0';
-	public $MetaDesc = 'B-Alpha là đơn vị tiên phong áp dụng giải pháp công nghệ 4.0 hỗ trợ tư vấn viên tìm kiếm khách hàng tiềm năng và để khách hàng yên tâm tối đa khi mua các sản phẩm bảo hiểm.';
-	public $MetaKeys = 'bảo hiểm, b-alpha, datacenter, b-alpha insurance, bảo hiểm công nghệ 4.0, bảo hiểm công  nghệ , data center b-alpha, datacenter bảo hiểm, bảo hiểm b-alpha là gì, tuyển dụng b-alpha, tuyển dụng bảo hiểm b-alpha, bao hiểm 4.0, bao hiem cong nghe';
+	public $MetaDesc = 'Trung tâm bồi dưỡng học sinh giỏi Viết Xuân chuyên bồi dưỡng học sinh giỏi, luyện thi Trần Đại Nghĩa, luyện thi Olympic Toán tuổi thơ, luyện thi Violympic, bồi dưỡng lớp 1 đến lớp 12, trung tâm gia sư uy tín TPHCM.';
+	public $MetaKeys = 'Toán tiểu học online, Toán tiểu học online, Toan tieu hoc, Toán tiểu học, gia su Viet Xuan, gia sư Viết Xuân, luyen thi tran dai nghia, luyện thi Trần Đại Nghĩa, luyen thi Violympic, luyện thi Violympic, luyện thi Olympic Toán tuổi thơ, luyen thi Olympic Toan tuoi tho, tạp chí Toán tuổi thơ, tap chi toan tuoi tho, olympic toan tuoi tho, Olympic Toán tuổi thơ';
 	public $MetaTitle = '1';
 	public $MetaAuthor = '1';
 	public $MetaVersion = '0';

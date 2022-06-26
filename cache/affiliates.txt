@@ -37,3 +37,16 @@ Array
     [approved] => 1
     [atid] => 0
 )
+
+June 26, 2022, 7:50 pm
+Array
+(
+    [name] => User registration
+    [component] => com_users
+    [extended_name] => parent1
+    [type] => 1
+    [value] => 10
+    [reference_id] => 4901
+    [approved] => 1
+    [atid] => 0
+)

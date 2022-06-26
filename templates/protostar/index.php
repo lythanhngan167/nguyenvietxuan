@@ -605,7 +605,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 							<div class="col-xs-12 col-md-2 left-logo-search-account">
 								<a class="brand pull-left logo-desktop" href="<?php echo $this->baseurl; ?>/">
 									<?php //echo $logo; ?>
-									<img width="155" height="60" src="<?php echo $this->baseurl; ?>/templates/<?php echo $this->template; ?>/images/logo-vertical.svg" alt="<?php echo $sitename ?>" />
+									<img width="352" height="100" src="<?php echo $this->baseurl; ?>/templates/<?php echo $this->template; ?>/images/logo-top.png" alt="<?php echo $sitename ?>" />
 									<?php if ($this->params->get('sitedescription')) : ?>
 										<?php //echo '<div class="site-description">' . htmlspecialchars($this->params->get('sitedescription'), ENT_COMPAT, 'UTF-8') . '</div>'; ?>
 									<?php endif; ?>
@@ -1763,8 +1763,8 @@ function changeVideo(vId){
   width: 100%;
   background: white;
   border-radius: calc(12% + 70px) 0 0 0;
-  border-top: solid 8px #038A96;
-  box-shadow: inset 0 5px 0 #F58C29;
+  border-top: solid 8px #0063b6;
+  box-shadow: inset 0 5px 0 #fd5d14;
 }
 <?php } ?>
 
@@ -1785,8 +1785,8 @@ function changeVideo(vId){
   width: 100%;
   background: white;
   border-radius: calc(15% + 100px) 0 0 0;
-  border-top: solid 8px #038A96;
-  box-shadow: inset 0 5px 0 #F58C29;
+	border-top: solid 8px #0063b6;
+	box-shadow: inset 0 5px 0 #fd5d14;
 }
 <?php } ?>
 
