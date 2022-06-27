@@ -69,11 +69,22 @@ if($item->params['robots'] == 'index, nofollow'){
 
 echo JHtml::_('link', JFilterOutput::ampReplace(htmlspecialchars($item->flink, ENT_COMPAT, 'UTF-8', false)), $linktype, $attributes);
 if($item->note != ''){
+	$i_tag = '';
+	if($item->id == 158 || $item->id == 159 || $item->id == 197 || $item->id == 198){
+		$i_tag = '<i class="fa fa-graduation-cap" aria-hidden="true"></i>';
+	}
+	if($item->id == 199){
+		$i_tag = '<i class="fa fa-star-half-o" aria-hidden="true"></i>';
+	}
+	if($item->id == 200){
+		$i_tag = '<i class="fa fa-star" aria-hidden="true"></i>';
+	}
 	echo '<span class="number-product">'.$item->note.'</span>';
 	echo '<div class="circle-outner outner-'.$item->id.'">
 		<div class="circle-innner inner-'.$item->id.'">
 
 		<div class="circle-innner2 inner2-'.$item->id.'">
+		'.$i_tag.'
 		</div>
 		</div>
 	</div>';

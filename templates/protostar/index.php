@@ -933,8 +933,23 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 					<div class="box-service">
 						<div class="image"></div>
 						<div class="info">
-							<a href="#" class="item-center"><span class="special-item-center">BẢO HIỂM</span> <span class="special-item-center">CÔNG NGHỆ</span> <span class="special-item-center">4.0</span></a>
+							<a href="#" class="item-center"><span class="special-item-center">PHƯƠNG PHÁP HỌC</span> <span class="special-item-center">CHỦ ĐỘNG</span></a>
 							<div class="item item-special-1">
+								<div class="box-service-item">
+									<a href="#" class="box-service-item-icon"><div class="item-icon">
+										<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="122.22" height="140" viewBox="0 0 122.22 140"><defs><clipPath id="a"><rect width="122.22" height="140" fill="none"/></clipPath></defs><g transform="translate(89.785 59)"><g transform="translate(-89.785 -59)"><g transform="translate(0 0)" clip-path="url(#a)"><path d="M87.456,0a35.666,35.666,0,0,0-24.7,10.335l-48.7,47.648a48.061,48.061,0,0,0,67.968,67.968l21.9-21.9L91.835,91.967l-20.32,19.795-1.577,2.277a30.978,30.978,0,0,1-43.794,0c-11.894-11.912-11.562-31.181,0-43.268L74.843,22.6a18.085,18.085,0,0,1,25.225,0c6.832,6.832,6.481,17.693,0,24.7L56.275,90.566a4.707,4.707,0,0,1-6.657-6.657l1.051-.526L66.61,66.917,54.523,54.83,37.531,71.822a21.677,21.677,0,0,0,30.656,30.656L111.98,59.735A34.948,34.948,0,0,0,87.281.175Z" transform="translate(-0.008 -0.009)" fill="#f8f8f8"/></g></g></g></svg>
+
+
+									</div></a>
+									<div class="box-service-item-info">
+										<h3 class="">Liên hệ thực tế</h3>
+											<ul class="special-balpha one">
+												<li>Hệ thống các bài học, bài tập theo chủ đề và bám sát kiến thức của Bộ Giáo Dục.</li>
+
+											</ul>
+									</div>
+								</div>
+							</div> <div class="item item-special-2">
 								<div class="box-service-item">
 									<a href="#" class="box-service-item-icon"><div class="item-icon">
 										<svg xmlns="http://www.w3.org/2000/svg" width="160.003" height="140" viewBox="0 0 160.003 140"><g transform="translate(98.785 59)"><g transform="translate(-96 -161)"><path d="M0,0V140H140V68.2l-20,20V120H20V20h71.8L111.79,0ZM140,0,79.993,60.007l-19.985-20-20,20L79.993,100,160,20Z" transform="translate(-2.785 102)" fill="#f8f8f8"/></g></g></svg>
@@ -942,26 +957,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 									</div></a>
 									<div class="box-service-item-info">
-										<h3 class="">GIẢI PHÁP DATA CENTER</h3>
-											<ul class="special-balpha one">
-												<li>Tìm kiếm Data nóng, Khách hàng có nhu cầu</li>
-												<li>Data không trùng lặp</li>
-												<li>Data được Remarketing</li>
-											</ul>
-									</div>
-								</div>
-							</div> <div class="item item-special-2">
-								<div class="box-service-item">
-									<a href="#" class="box-service-item-icon"><div class="item-icon">
-										<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="122.22" height="140" viewBox="0 0 122.22 140"><defs><clipPath id="a"><rect width="122.22" height="140" fill="none"/></clipPath></defs><g transform="translate(89.785 59)"><g transform="translate(-89.785 -59)"><g transform="translate(0 0)" clip-path="url(#a)"><path d="M87.456,0a35.666,35.666,0,0,0-24.7,10.335l-48.7,47.648a48.061,48.061,0,0,0,67.968,67.968l21.9-21.9L91.835,91.967l-20.32,19.795-1.577,2.277a30.978,30.978,0,0,1-43.794,0c-11.894-11.912-11.562-31.181,0-43.268L74.843,22.6a18.085,18.085,0,0,1,25.225,0c6.832,6.832,6.481,17.693,0,24.7L56.275,90.566a4.707,4.707,0,0,1-6.657-6.657l1.051-.526L66.61,66.917,54.523,54.83,37.531,71.822a21.677,21.677,0,0,0,30.656,30.656L111.98,59.735A34.948,34.948,0,0,0,87.281.175Z" transform="translate(-0.008 -0.009)" fill="#f8f8f8"/></g></g></g></svg>
-
-									</div></a>
-									<div class="box-service-item-info">
-										<h3 class="">QUY TRÌNH GIAO KẾT HỢP ĐỒNG ĐẶC BIỆT</h3>
+										<h3 class="">Tạo không khí tích cực khi học</h3>
 										<ul class="special-balpha two">
-											<li>Minh bạch, tinh gọn</li>
-											<li>Có sự tham gia của bên thứ ba – đại diện về mặt pháp lý</li>
-											<li>Quy trình được ghi âm, ghi hình</li>
+											<li>Tạo ra bầu không khí tích cực, một tiết học của chúng tôi đều luôn “sôi động”, học viên và giáo viên đều tích cực tham gia vào các trò chơi, cuộc thi “nhỏ” để tiếp thu và làm rõ kiến thức.</li>
+
 										</ul>
 									</div>
 								</div>
@@ -973,11 +972,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 									</div></a>
 									<div class="box-service-item-info">
-										<h3 class="">SIÊU THỊ BẢO HIỂM ĐA DẠNG CÁC SẢN PHẨM</h3>
+										<h3 class="">Trực quan hóa</h3>
 										<ul class="special-balpha two">
-											<li>Hơn 200 sản phẩm bảo hiểm nhân thọ và phi nhân thọ</li>
-											<li>Đối tác là các doanh nghiệp bảo hiểm uy tín</li>
-											<li>Trao quyền chủ động lựa chọn sản phẩm cho khách hàng</li>
+											<li>Trực quan hóa các kiến thức để làm bài học trở nên sinh động và đa dạng hóa hình thức thể hiện để học sinh dễ dàng tiếp thu.</li>
 										</ul>
 
 									</div>
@@ -990,11 +987,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 									</div></a>
 									<div class="box-service-item-info">
-										<h3 class="">ĐỘI NGŨ TƯ VẤN TÀI CHÍNH</h3>
+										<h3 class="">Khuyến khích người học tự làm</h3>
 										<ul class="special-balpha two">
-											<li>Kiến thức chuyên môn vững chắc</li>
-											<li>Có bề dày kinh nghiệm</li>
-											<li>Khách quan, trung thực, tận tâm</li>
+											<li>Mỗi chủ đề được giảng dạy một cách đơn giản và dễ hiểu nhất, đồng thời liên tục đặt các vấn đề để khuyến khích học viên tự tư duy.</li>
+
 										</ul>
 
 									</div>
@@ -1007,11 +1003,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 									</div></a>
 									<div class="box-service-item-info">
-										<h3 class="balpha-academy">HỌC VIỆN BẢO HIỂM SỐ B-Alpha ACADEMY</h3>
+										<h3 class="balpha-academy">Chốt lại nội dung sau mỗi buổi học</h3>
 										<ul class="special-balpha two">
-											<li>Tiên phong đào tạo nguồn nhân lực bảo hiểm</li>
-											<li>Chuyển giao nền tảng công nghệ</li>
-											<li>Trao kiến thức, niềm tin cho mọi người dân Việt Nam</li>
+											<li>Chốt kiến thức sau giờ học giúp học sinh ghi nhớ sâu được các bài học được tốt hơn.</li>
+
 										</ul>
 
 									</div>
