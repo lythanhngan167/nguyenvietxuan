@@ -1068,8 +1068,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 					<div class="box-service-2">
 						<div class="col-image1">
 							<div class="content-dk content-image">
-								<a class="btn-dk" href="https://insurance.bcavietnam.com/ctv-bao-hiem-online">Đăng ký ngay</a>
-								<p>Hotline:<a class="hotline-balpha" href="tel:1900888647">1900888647</a></p>
+								<a class="btn-dk" href="#">Đăng ký ngay</a>
+								<p>Hotline:<a class="hotline-balpha" href="tel:0973308199">0973.308.199</a></p>
 							</div>
 
 						</div>
@@ -1080,36 +1080,49 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 						</div>
 						<div class="bg-info1"></div>
 						<div class="col-info">
-							<h2 class="">
-							<img width="220" src="<?php echo $this->baseurl; ?>/templates/<?php echo $this->template; ?>/images/logo-text-balpha.png?t=123" alt="<?php echo $sitename ?>" />
-							</h2>
-							<h3 class="">Nền tảng phân phối bảo hiểm online</h3>
-							<ul>
-								<li><span>
+							<!-- <h2 class="">
+							<img width="200" src="<?php echo $this->baseurl; ?>/templates/<?php echo $this->template; ?>/images/logo-top.png?t=1234" alt="<?php echo $sitename ?>" />
+							</h2> -->
+							<h3 class="choose-we">Trung Tâm Bồi dưỡng Học sinh giỏi Nguyễn Viết Xuân</h3>
+							<div class="choose-we-intro">
+								Chúng tôi không ngừng đào tạo nâng cao nghiệp vụ và ứng dụng Khung Năng Lực Giảng Dạy để kiểm soát chất lượng giảng dạy của từng giáo viên/trợ giảng trong hệ thống.
+							</div>
+
+							<ul class="choose-we-ul">
+								<li><span class="span-icon">
 									<svg xmlns="http://www.w3.org/2000/svg" width="139.978" height="140.004" viewBox="0 0 139.978 140.004"><g transform="translate(0 0)"><g transform="translate(98.785 60)"><g transform="translate(41.193 76.005)"><path d="M5.961.039A8.743,8.743,0,0,0,.013,8.787V96.265a8.751,8.751,0,0,0,8.748,8.748H52.5v17.5H35a17.547,17.547,0,0,0-17.5,17.5H122.482a17.547,17.547,0,0,0-17.5-17.5h-17.5v-17.5H131.23a8.751,8.751,0,0,0,8.748-8.748V8.787A8.751,8.751,0,0,0,131.23.039H8.761a7.893,7.893,0,0,0-1.575,0q-.525-.026-1.05,0Zm11.547,17.5H122.482V87.517H17.509Z" transform="translate(-139.978 -136.004)" fill="#f8f8f8"/></g></g></g></svg>
 
-								</span>Kinh doanh bảo hiểm online mọi lúc mọi nơi</li>
+								</span><span class="span-detail">Áp dụng nền tảng học trực tiếp kết hợp kiểm tra đánh giá kết quả học tập theo ngày, tuần, tháng, năm. Ngoài ra tận dụng nền tảng công nghệ học trực tuyến để kết nối nhưng học viên ở xa, có thể học online theo giáo trình học trực tiếp tại Trung tâm. </span></li>
 
-								<li><span>
+								<li><span class="span-icon">
 									<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="142" height="142" viewBox="0 0 142 142"><defs><clipPath id="a124"><rect width="142" height="142" transform="translate(-0.24 -0.331)" fill="none"/></clipPath></defs><g transform="translate(99.785 60)"><g transform="translate(-99.545 -59.669)"><g transform="translate(0)" clip-path="url(#a124)"><path d="M70.669,0a70.669,70.669,0,1,0,70.669,70.669A70.649,70.649,0,0,0,70.669,0m0,17.667c5.83,0,11.307,1.59,16.607,3.357-3.71,3.533-7.95,6.714-7.244,9.894s12.19,2.3,12.19,8.834c0,4.77-7.42,6.184-2.3,11.66,6.184,6.184-11.307,17.314-11.66,25.441-.53,14.664,14.84,17.137,27.031,17.137,7.42,0,9.364,3.533,8.834,7.774-9.54,13.6-25.794,22.084-43.638,22.084a50.658,50.658,0,0,1-18.727-3.887c3.887-7.774-4.947-23.144-13.25-28.091-4.063-4.063-12.72-2.473-17.667-4.417-1.59-4.77-3.18-9.54-3.357-14.84a3.125,3.125,0,0,1,2.827-1.59c3.357,0,7.95,6.714,10.424,6.007,3.18-.707-13.074-23.144-5.477-27.561,3.533-2.12,10.6,6.89,8.3-2.827-2.12-9.01,6.36-4.947,11.66-7.244,4.593-1.943,7.95-7.244,2.3-10.424a18.885,18.885,0,0,1-3.887-3.357,52.438,52.438,0,0,1,27.031-7.774ZM111.48,36.924a58.43,58.43,0,0,1,7.774,12.72v.53c-.707,1.237-1.943,1.943-3.887,3.887-4.947,4.947-5.653-3.71-7.774-5.477-2.3-2.12-10.6.353-11.66-2.3-1.237-3.18,8.834-7.42,15.547-9.364" fill="#f8f8f8"/></g></g></g></svg>
 
-								</span>B-Alpha - Nền tảng phân phối bảo hiểm online</li>
+								</span>
+								<span class="span-detail">Giáo trình sử dụng theo chuẩn của bộ giáo dục và nâng cao của trung tâm
+Giáo trình học thuật & luyện thi của bộ giáo dục và trung tâm đề ra. Tài liệu bổ trợ độc quyền được thiết kế bởi các chuyên gia nhiều kinh nghiệm & đạt nhiều thành tích trong việc giảng dạy, bồi dưỡng học sinh giỏi.
+</span></li>
 
-								<li><span>
+								<li><span class="span-icon">
 									<svg xmlns="http://www.w3.org/2000/svg" width="140" height="140" viewBox="0 0 140 140"><g transform="translate(98.785 59)"><g transform="translate(-41.785 127)"><path d="M123.025,0,70,52.5,52.5,35,0,88.025l17.5,17.5L52.5,70,70,87.5l70-70L123.025,0M0,140H140V122.5H0Z" transform="translate(-57 -186)" fill="#f8f8f8"/></g></g></svg>
 
-								</span>Nguồn khách hàng không giới hạn với Data Center</li>
+								</span><span class="span-detail">Trình độ giảng viên
+ Tất cả giảng viên tại trung tâm đều có chuyên môn cao, bằng cấp đạt từ Thạc sĩ trở lên. Và được tuyển chọn gắt gao về năng lực giảng dạy. Giảng viên tại trung tâm xuất thân từ các trường đại học hàng đầu của cả trong và ngoài nước.
+</span></li>
 
-								<li><span>
+								<li><span class="span-icon">
 									<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="121.358" height="140" viewBox="0 0 121.358 140"><defs><clipPath id="a"><rect width="121.358" height="140" transform="translate(0 0)" fill="none"/></clipPath></defs><g transform="translate(89.785 59)"><g transform="translate(-67.785 -59)"><g transform="translate(-22 0)" clip-path="url(#a)"><path d="M102.592,72.5a37.91,37.91,0,0,0-5.38-2.5,37.909,37.909,0,0,0,5.38-2.5,37.609,37.609,0,0,0,18.767-32.466,37.579,37.579,0,0,0-37.534,0,39.613,39.613,0,0,0-4.879,3.378A37.222,37.222,0,0,0,60.679,0,37.222,37.222,0,0,0,42.413,38.409a34.139,34.139,0,0,0-4.879-3.441A37.581,37.581,0,0,0,0,34.969,37.346,37.346,0,0,0,18.767,67.435a37.91,37.91,0,0,0,5.38,2.5A37.02,37.02,0,0,0,0,104.906a37.579,37.579,0,0,0,37.534,0,39.613,39.613,0,0,0,4.879-3.378,38.893,38.893,0,0,0-.5,6.005A37.515,37.515,0,0,0,60.679,140a37.222,37.222,0,0,0,18.266-38.409,33.782,33.782,0,0,0,4.879,3.378,37.581,37.581,0,0,0,37.534,0A37.609,37.609,0,0,0,102.592,72.5M60.679,95.022A25.022,25.022,0,1,1,85.7,70,25.015,25.015,0,0,1,60.679,95.022" fill="#f8f8f8"/></g></g></g></svg>
 
 
-								</span>Không áp lực doanh số, doanh số được tích luỹ theo thời gian</li>
+								</span><span class="span-detail">Xây dựng lộ trình học tối ưu
+Lộ trình của học viên được xây dựng sát với năng lực và mục tiêu để rút ngắn thời gian học tập của từng học viên. Lộ trình học được tối ưu để đạt được mục tiêu trong thời gian sớm nhất.
+</span></li>
 
-								<li><span>
+								<li><span class="span-icon">
 									<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="142" height="142" viewBox="0 0 142 142"><defs><clipPath id="a123"><rect width="142" height="142" transform="translate(-0.24 -0.331)" fill="none"/></clipPath></defs><g transform="translate(99.785 60)"><g transform="translate(-99.545 -59.669)"><g clip-path="url(#a123)"><path d="M70.669,0C51.235,0,35.334,19.787,35.334,44.168s15.9,44.168,35.334,44.168S106,68.549,106,44.168,90.1,0,70.669,0M33.744,88.336A35.37,35.37,0,0,0,0,123.67v17.667H141.337V123.67a35.246,35.246,0,0,0-33.744-35.334C98.053,99.113,84.979,106,70.669,106s-27.384-6.89-36.924-17.667" fill="#f8f8f8"/></g></g></g></svg>
 
-								</span>Hơn 1000 chuyên gia sẵn sàng tư vấn hỗ trợ cho bạn</li>
+								</span><span class="span-detail">Tập trung kết quả đầu ra
+90% học viên sau khi kết thúc các khoá học, khóa bồi dưỡng nâng cao, luyện thi tại trung tâm đều đạt được mục tiêu & thời gian đạt ngắn hơn so với kỳ vọng trước khi học tại trung tâm.
+</span></li>
 
 							</ul>
 							<div class="content-dk content-dk-mobile">
@@ -1156,7 +1169,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 		</div>
 	</div>
 	</div>
-	<div class="container-fluid request-consulting">
+	<!-- <div class="container-fluid request-consulting">
 		<div class="container">
 			<div class="row">
 				<div class="col-xs-12 right-consulting">
@@ -1164,7 +1177,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 				</div>
 		</div>
 	</div>
-	</div>
+	</div> -->
 <?php } ?>
 <?php if ($is_landingpage == 0) : ?>
 	<div class="container-fluid footer-module">
@@ -1735,7 +1748,7 @@ function changeVideo(vId){
     clip-path: polygon(0 0, calc(100% - 430px) 0, 100% 100%, 0 100%);
 }
 .box-service-2 .bg-info1{
-	height: calc(100% - 150px);
+	height: calc(100% - 60px);
 }
 .slide-categories .banner-1{
   height: calc(100vw * (560/(1280 + 0)))!important;
