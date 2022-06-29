@@ -70,7 +70,9 @@ if($item->params['robots'] == 'index, nofollow'){
 echo JHtml::_('link', JFilterOutput::ampReplace(htmlspecialchars($item->flink, ENT_COMPAT, 'UTF-8', false)), $linktype, $attributes);
 if($item->note != ''){
 	$i_tag = '';
-	if($item->id == 158 || $item->id == 159 || $item->id == 197 || $item->id == 198){
+	if($item->id == 158 || $item->id == 159 || $item->id == 197 || $item->id == 198
+	|| $item->id == 500 || $item->id == 501 || $item->id == 502 || $item->id == 503
+	){
 		$i_tag = '<i class="fa fa-graduation-cap" aria-hidden="true"></i>';
 	}
 	if($item->id == 199){
