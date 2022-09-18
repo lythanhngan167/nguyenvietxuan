@@ -1,0 +1,56 @@
+<?php return array(
+    'root' => array(
+        'pretty_version' => 'dev-master',
+        'version' => 'dev-master',
+        'type' => 'library',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'reference' => 'b48b76c279e87194dfe8031cd4cf59a734569868',
+        'name' => 'lvson/iclock',
+        'dev' => true,
+    ),
+    'versions' => array(
+        'catfan/medoo' => array(
+            'pretty_version' => 'v2.1.7',
+            'version' => '2.1.7.0',
+            'type' => 'framework',
+            'install_path' => __DIR__ . '/../catfan/medoo',
+            'aliases' => array(),
+            'reference' => '74be58f80d330d1075ef3bfd0fb3d057349597ae',
+            'dev_requirement' => false,
+        ),
+        'lvson/iclock' => array(
+            'pretty_version' => 'dev-master',
+            'version' => 'dev-master',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'reference' => 'b48b76c279e87194dfe8031cd4cf59a734569868',
+            'dev_requirement' => false,
+        ),
+        'monolog/monolog' => array(
+            'pretty_version' => '2.8.0',
+            'version' => '2.8.0.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../monolog/monolog',
+            'aliases' => array(),
+            'reference' => '720488632c590286b88b80e62aa3d3d551ad4a50',
+            'dev_requirement' => false,
+        ),
+        'psr/log' => array(
+            'pretty_version' => '1.1.4',
+            'version' => '1.1.4.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../psr/log',
+            'aliases' => array(),
+            'reference' => 'd49695b909c3b7628b6289db5479a1c204601f11',
+            'dev_requirement' => false,
+        ),
+        'psr/log-implementation' => array(
+            'dev_requirement' => false,
+            'provided' => array(
+                0 => '1.0.0 || 2.0.0 || 3.0.0',
+            ),
+        ),
+    ),
+);
